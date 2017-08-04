@@ -19,6 +19,7 @@ header {
   align-items: center;
   justify-content: space-between;
   background-color: black;
+  z-index: 5;
 }
 
 header img {
@@ -36,7 +37,7 @@ nav span {
 }
 
 #mission {
-  margin: 70px auto;
+  margin: 70px auto 0 auto;
   height: 700px;
   width: 1200px;
   background-image: url("../../resources/images/img-mission-background.jpg");
@@ -57,7 +58,8 @@ nav span {
 
 #tea {
   width: 1000px;
-  margin: 70px auto;
+  margin: 0 auto;
+  padding-top: 70px;
 }
 
 .tea-images {
@@ -75,11 +77,13 @@ justify-content: center;
   margin: 0 auto;
   height: 500px;
   width: 1200px;
+  border-top: 70px solid black;
   }
 
 #locations h2{
   padding-top: 75px;
   margin-bottom: unset;
+
 }
 
 .loc-boxes {
@@ -97,4 +101,14 @@ justify-content: center;
 
 .box h3, p {
   padding: 10px 0;
+}
+
+.contact {
+  height: 200px;
+  width: 1200px;
+}
+
+.copy {
+  margin-left: 20px;
+  text-align: left;
 }
