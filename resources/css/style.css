@@ -36,8 +36,7 @@ nav span {
 }
 
 #mission {
-  padding-top: 70px;
-  margin: 0 auto;
+  margin: 70px auto;
   height: 700px;
   width: 1200px;
   background-image: url("../../resources/images/img-mission-background.jpg");
@@ -54,4 +53,19 @@ nav span {
 .missiontext h2, h4 {
   margin: 10px;
   color: seashell;
+}
+
+#tea {
+  width: 1000px;
+  margin: 70px auto;
+}
+
+.tea-images {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.tea-images div {
+  margin: 10px 15px;
 }
