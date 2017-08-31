@@ -124,8 +124,13 @@ display: flex;
 }
 
 .contact {
-  height: 200px;
+
+  margin: 4rem auto;
   width: 1200px;
+}
+
+.contact h5{
+  margin-bottom: 0;
 }
 
 .copy {
